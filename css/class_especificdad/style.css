@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container{
+  margin: 24px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav{
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  width: 50%;
+  padding-right: 200px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.nav a:hover{
+  background-color: plum;
+  color: white;
+  border-radius: 8px;
+}
+
+.nav a:active{
+  background-color: purple;
+}
